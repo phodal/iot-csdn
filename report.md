@@ -85,6 +85,8 @@ JS Node.js，Samsung 的 IoTjs、Ruff、Tessel 配置高的处理器
 
 前端在
 
+放飞思路。MQTT 协议，但是我们用微信、Telegram 也可以，而且还是加密的
+
 物联网时代下，前端开发前景
 ---
 
