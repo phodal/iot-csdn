@@ -13,9 +13,13 @@
 
 2. 现如今随着企业业务需求的不断增大，对前端工程师的要求也逐渐提高。您认为前端工程师应该在哪些方面进行积累？包括语言、工具、框架等方面。
 
+从 CoffeeScript 到 ES6、TypeScript，表明了 JavaScript 有诸多需要改进的语言缺点。它会影响代码的质量，导致难以控制 。
+
 强类型的语言是必不可少的。
 
 Vue.js 很适合完成工。如果想在理论上有所提升的，可以学学 Angular、React。
+
+Angular.js 算得上是一个很下错的 Angular 升级，可是除了 Web 应用没有什么别的优点。
 
 React 的思想是一个很有前景的框架，React VR、React Native、React AR
 
@@ -73,11 +77,11 @@ JS Node.js，Samsung 的 IoTjs、Ruff、Tessel 配置高的处理器
 
 9. 依您经验来看，前端工程师进入物联网领域有什么样的职业机会，您有什么建议想要对开发者分享？
 
-客户端基本上是 Web 技术，JavaScript 
+**客户端**，基本上是 Web 技术，JavaScript 
 
-数据可视化
+**数据可视化**，
 
-数据显示、处理
+**硬件原型开发**
 
 前端在
 
