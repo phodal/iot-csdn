@@ -3,11 +3,9 @@
 
 1. 请您做个自我介绍，包括个人经历以及正在做的事情？此外您目前主要关注哪些技术？
 
-我是 Phodal，从小学参加 LOGO 语言比赛开始了，编程生涯。毕业于西安文理学院电子信息工程专业，现就职于ThoughtWorks。长期活跃于开源软件社区GitHub，专注于物联网和前端领域。 著有《自己动手设计物联网》、《全栈应用开发：精益实践》，并译有《物联网实战指南》。曾作为技术专家审阅英国Packt出版社的物联网书籍《Learning IoT》、《Smart IoT》、《Angular 2 Services》等书，在 GitHub 开源有《Growth：全栈增长工程师指南》等六本电子书。
+我从小学参加 LOGO 语言比赛开始了编程生涯。毕业于西安文理学院电子信息工程专业，现就职于 ThoughtWorks 深圳。长期以 Phodal 这个 ID 活跃于软件社区，如开源软件社区 GitHub、CSDN、知乎，目前专注于物联网和前端领域。著有《自己动手设计物联网》、《全栈应用开发：精益实践》，并译有《物联网实战指南》。曾作为技术专家审阅英国 Packt 出版社的物联网书籍《Learning IoT》、《Smart IoT》，及前端书籍《Angular 2 Services》等书，在 GitHub 开源有《Growth：全栈增长工程师指南》等七本电子书。
 
-业余时间，关注物联网，在负责 InfoQ 的《物联网技术周报》策划及编写
-
-迁移应用到 React Native，编写开源应用 Growth，配合项目上进行练习
+目前，我正在迁移一个应用到 React Native，编写开源应用 Growth，配合项目上进行练习。业余时间，关注物联网，在负责 InfoQ 的《物联网技术周报》策划及编写
 
 关注：Amazon Alexa -> Home Automation 的一个、结合人工智能与机器学习
 
