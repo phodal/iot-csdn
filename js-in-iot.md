@@ -26,6 +26,8 @@
 
 ### 传统开发模式
 
+![Lan 物联网架构](images/lan-archicture.jpeg)
+
 ### ServerLess
 
 #### 通用的 ServerLess 架构 
