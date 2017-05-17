@@ -11,6 +11,8 @@
 物联网架构
 ---
 
+![传统的 CS 架构](images/cs.png)
+
 ![典型的物联网架构](images/struct.png)
 
 ### 基于纯 JavaScript 的物联网架构
