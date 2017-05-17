@@ -28,9 +28,21 @@
 
 ![Lan 物联网架构](images/lan-archicture.jpeg)
 
-### ServerLess
 
-#### 使用云服务 
+#### 使用云服务
+
+单一的云服务无法提供这么多复杂的功能
+
+### ServerLess 
+
+> Serverless 是一种基于互联网的技术架构理念，应用逻辑并非全部在服务端实现，而是采用FAAS（Function as a Service）架构，通过功能组合来实现应用程序逻辑。
+
+1. 对设备进行鉴权
+2. 转换、存储设备的数据
+3. 广播通知其他监听此设备数据的服务
+4. 后台查询数据
+5. 分析数据（AI）
+6. 可视化数据
 
 #### 通用的 ServerLess 架构 
 
@@ -39,7 +51,6 @@
 #### AWS IoT Things
 
 ![AWS IoT Things 参考架构](images/aws-iot-things.png)
-
 
 应用层
 ---
@@ -52,6 +63,9 @@ React Native 可以提供更好的性能
 
 但是如果只能蓝牙的交互，可以考虑 PWA 或者微信小程序
 
+未来的浏览器，Web Devices API，如 Bluetooth、NFC、USB
+
+以及微信小程序，访问 GPS、罗盘、加速度计
 
 硬件层
 ---
@@ -59,6 +73,8 @@ React Native 可以提供更好的性能
 ![物联网硬件层](images/iot-hardware.jpg)
 
 显然，就当前而言 Arduino 是最合适的原型开发硬件，除此还有 ESP8266
+
+多数使用 JavaScript 的设备都具有网络功能，他们可以直接连接到互联网。
 
 Tessel
 
