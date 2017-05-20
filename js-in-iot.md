@@ -80,17 +80,35 @@ JavaScript 语言在最近几年里特别流行， 它流行起来有很多个�
 
 ![物联网服务层](images/iot-server.jpg)
 
-### 传统开发模式
+上图便是我们看到的**物联网服务层**的三种方案：
+
+ - 自主开发。即遵循传统的服务端开发模式，定义自己所需要的功能
+ - 使用云服务。直接使用成熟的物联网云服务，他们在云端集成了各种所需要的功能
+ - Serverless。Server 可以看作是在云服务之上的自主开发，集两者之便利
+
+每一种方案都有各自的特点，也适合于不同开发能力的项目。
+
+### 自主开发
+
+在存储上，一般会采用 NoSQL 的方式
+
+如笔者之前在 GitHub 上开源的 Lan（GitHub：[https://github.com/phodal/lan](https://github.com/phodal/lan) ）物联网服务端，便是一个精简的物联网服务端模式：
+
+采用传统的关系型数据库来存储用户信息
+
+在数据存储上，采用 NoSQL 可以应对不同的传感器数据。
 
 ![Lan 物联网架构](images/lan-archicture.jpeg)
 
 #### 使用云服务
 
+如 AWS IoT、Azure IoT 等。
+
 单一的云服务无法提供这么多复杂的功能
 
 ### ServerLess 
 
-> Serverless 是一种基于互联网的技术架构理念，应用逻辑并非全部在服务端实现，而是采用FAAS（Function as a Service）架构，通过功能组合来实现应用程序逻辑。
+> 自主开发 是一种基于互联网的技术架构理念，应用逻辑并非全部在服务端实现，而是采用FAAS（Function as a Service）架构，通过功能组合来实现应用程序逻辑。
 
 1. 对设备进行鉴权
 2. 转换、存储设备的数据
@@ -163,3 +181,5 @@ OpenWRT 路由器作为网关
  - DevOps
  - 容器化
  - ServerLess
+
+关注：Awesome Iot，InfoQ 物联网周报
