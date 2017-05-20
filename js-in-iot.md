@@ -69,7 +69,7 @@ JavaScript 语言在最近几年里特别流行， 它流行起来有很多个�
 
 如上所说，几年前要寻找一门语言，能完成一个包含客户端、服务端的系统相当的难。而随着客户端（浏览器、移动设备）性能的提升，Node.js 的出现，这样的语言就浮现了出来：JavaScript。它不仅可以让我们只用一门语言来降低开发成功，还能实现快速地开发出这样的一个系统。
 
-![基于纯 JavaScript 的物联网架构](images/iot-archicture.jpg)
+![基于纯 JavaScript 的物联网参考架构](images/iot-archicture.jpg)
 
 那么，剩下的问题就是，在不同的层级选用合适的框架。
 
@@ -92,22 +92,24 @@ JavaScript 语言在最近几年里特别流行， 它流行起来有很多个�
 
 在存储上，一般会采用 NoSQL 的方式
 
-如笔者之前在 GitHub 上开源的 Lan（GitHub：[https://github.com/phodal/lan](https://github.com/phodal/lan) ）物联网服务端，便是一个精简的物联网服务端模式：
-
-采用传统的关系型数据库来存储用户信息
-
-在数据存储上，采用 NoSQL 可以应对不同的传感器数据。
+如笔者之前在 GitHub 上开源的 Lan（GitHub：[https://github.com/phodal/lan](https://github.com/phodal/lan) ）物联网服务端，便是一个精简的物联网服务端示例。
 
 ![Lan 物联网架构](images/lan-archicture.jpeg)
 
+ - 采用传统的关系型数据库来存储用户信息
+ - 采用 NoSQL 可以应对不同的传感器数据
+ - 提供 UI 界面供管理人员管理用户
+ - 在协议上提供 HTTP、CoAP、MQTT、WebSocket 等的支持，方便不同的类型适配支持
+
 #### 使用云服务
 
-如 AWS IoT、Azure IoT 等。
+如 AWS IoT Things、Azure IoT 等。
 
 单一的云服务无法提供这么多复杂的功能
 
+如下是 AWS IoT Things 的架构示意图，
 
-![AWS IoT Things 参考架构](images/aws-iot-things.png)
+![AWS IoT Things 参考架构](iot-serveress.png)
 
 而事实上， AWS IoT 提供了更多的开发能力——可以搭配其他 AWS 服务使用。
 
@@ -128,6 +130,8 @@ JavaScript 语言在最近几年里特别流行， 它流行起来有很多个�
 
 ![Serverless 物联网参考架构](images/internet-of-things-iot-hackday-23-638.jpg)
 
+如，AWS Lambda 支持 Node.js
+
 最后，我们要做的便是在应用层开发我们业务。
 
 应用层
@@ -137,7 +141,7 @@ JavaScript 语言在最近几年里特别流行， 它流行起来有很多个�
 
 因此就目前的 Web 趋势来看，**在应用层，JavaScript 将是主流的选择。**
 
-![物联网应用](images/iot-app.jpg)
+![物联网应用层](images/iot-app.jpg)
 
 当有大量的图表显示时，Ionic 不失为一个不错的框架，并且可以和 Angular 2 配合使用
 
