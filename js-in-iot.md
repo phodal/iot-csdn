@@ -55,13 +55,15 @@
 JavaScript 语言下的物联网架构
 ---
 
-JavaScript 流行起来有很多个原因，如：
 
- - 使用 WebView 开始 UI 方便，使得 WebView 随处可风
- - 事件驱动的编程模型
- - JavaScript 容易上手
- - React 等提供了更多的可能性
+JavaScript 语言在最近几年里特别流行， 它流行起来有很多个原因，如：
 
+ - 使用 WebView 开发 UI 效率更高，也因此使得 WebView 随处可见
+ - 基于事件驱动的编程模型
+ - JavaScript 容易上手（PS：这是优点，也是缺点）
+ - 也因此 React、Unity 等框架提供了更多的可能性，可以让开发者用 JavaScript 开发游戏、VR 应用等等
+
+那么，只使用 JavaScript 我们可以设计出怎样的物联网系统呢？
 
 ### 基于纯 JavaScript 的物联网架构
 
@@ -69,6 +71,8 @@ JavaScript 流行起来有很多个原因，如：
 
 服务层
 ---
+
+而对于**服务层**来说，自主开发的物联网服务端，主要采用的是基于 Node.js 的方案。然而，我们可以发现有越来越多的应用，在使用 Serverless 的架构。采用 Serverless 的物联网架构，其优势不仅在于可以快速推出一个可用的原型，并且未来能轻松地基于这个原型来添加业务功能。
 
 ![物联网服务层](images/iot-server.jpg)
 
@@ -101,6 +105,10 @@ JavaScript 流行起来有很多个原因，如：
 
 应用层
 ---
+
+在**应用层**方面，已经有大量的地方使用到了 JavaScript 。除了传统的桌面浏览器，还有更多的领域也可以用 JavaScript 来开发。如移动应用，已经有基于 Cordova + WebView 的成熟方案，还有最近两三年流行起来的 React Native，都可以让开发者使用 JavaScript 完成物联网移动应用的开发。又如微信小程序，它可以直接用蓝牙来连接硬件设备，它也使用 JavaScript 来编程。
+
+因此就目前的 Web 趋势来看，**在应用层，JavaScript 将是主流的选择。**
 
 ![物联网应用](images/iot-app.jpg)
 
