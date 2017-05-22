@@ -166,21 +166,15 @@ React Native 使用原生组件来渲染 UI 组件，不仅可以解决 Cordova 
 硬件层
 ---
 
-在硬件层上，就当前而言 Arduino 是最合适的原型开发硬件，除此还有自带 WiFi 的 ESP8266 开发板。而 JavaScript 在这一点上，也不比这些框架差太多。
+在硬件层上，就当前而言 Arduino 是最合适的原型开发硬件，除此还有自带 WiFi 的 ESP8266 开发板。尽管使用 JavaScript 的开发板数量较少，也没有 Arduino 这样的成熟的生态，但是未来可期。在嵌入式领域，使用 JavaScript 编写的代码，具有这么一些特点：移植性强，事件驱动，天生支持异步等。
 
 ![物联网硬件层](images/iot-hardware.jpg)
 
-多数使用 JavaScript 的设备都具有网络功能，他们可以直接连接到互联网。
+令人遗憾的是，为了保持上面提到的那些 JavaScript 特性，当前的 JavaScript 开发板，都需要处理性能比较高的处理器。这也导致了，这一类开发板在生产上存在较高的成本。不过，好在多数使用 JavaScript 作为开发语言的的设备，都具有网络功能能连接到互联网，直接作为物联网设备使用。
 
-Tessel
+就目前而言，这一类的设备有 Tessel、Espruino、Ruff 等等，它们的处理器性能都相当的不错，价格也相对较高一些。但是，他们可以直接使用 JavaScript，能为软件开发工程师屏蔽底层相关细节，及事件驱动、异步特性来带来更好的开发体验。
 
-Espruino
-
-Ruff，配置
-
-未来，IoT.js 会是一个更好的选择
-
-![IoT.js 架构](./images/iotjs-arch.png)
+幸运的是，Samsung 公司推出的开源物网框架 IoT.js，只需要 64 KB RAM、200 KB ROM。在未来，或许它能解决一些制造成本上的问题。
 
 协调层
 ---
@@ -189,11 +183,7 @@ Ruff，配置
 
 ![物联网协调层](images/iot-coord.jpg)
 
-Raspberry Pi
-
-Johnny-Five 
-
-OpenWRT 路由器作为网关
+这一类应用，依赖于 Node.js 引擎来实现快速开发。它可以运行在带有嵌入式系统的开发板上，如流行的 Raspberry Pi、OpenWRT 路由器等等。
 
 物联网的趋势
 ---
